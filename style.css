@@ -1,0 +1,306 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+@media screen and (min-width: 800px) {
+    .img {
+        width: 260px;
+        height: 550px;
+        margin: 60px 300px;
+        padding-left: 10px;
+        display: flex;
+        gap: 70px;
+        border: 1px solid black;
+        border-radius: 20px;
+    }
+    
+    .header {
+        width: 200px;
+        height: 320px;
+        padding: 60px 100px;
+        border: 1px solid lightgray;
+    }
+    .text {
+        display: flex;
+    }
+    .headertitle {
+        margin-top: -10px;
+        font-family: "Jacquard 24";
+        font-size: 50px;
+    }
+    .jacquard-24-regular {
+        font-family: "Jacquard 24", system-ui;
+        font-weight: 400;
+        font-style: normal;
+    }
+    .text {
+        width: 150%;
+        margin-left: -50px;
+        height: 30px;
+        text-indent: 5px;
+        border: 1px solid rgba(196, 189, 189, 0.322);
+        color: rgba(231, 225, 225, 0.952);
+    }
+    .name {
+        margin-top: 5px;
+    }
+    .btn {
+        width: 150%;
+        height: 35px;
+        margin-left: -50px;
+        color: white;
+        background-color: #4CB5F9;
+        margin-top: 25px;
+        border-radius: 10px;
+        border: none;
+    }
+    h4::before,
+    h4::after{
+        /*width: 150%;
+        text-align: center;
+        border-bottom: 1px solid black;
+        line-height: 0.1em;
+        margin: 20px 20px;
+        margin-left: -50px;*/
+    
+        background-color: #000;
+        content: "";
+        display: inline-block;
+        height: 1px;
+        position: relative;
+        vertical-align: middle;
+        width: 40%;
+        text-align: center;
+      }
+    h4::before {
+        right: 2em;
+      }
+      
+    h4::after {
+        left: 2.5em;
+      }
+    .logomain {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    .fblogo {
+        width: 10%;
+        height: 20px;
+        margin-top: -50px;
+    }
+    .content {
+        margin-top: 33px;
+        color: blue;
+        font-weight: 500;
+    }
+    .content2 {
+    margin-top: -100px;
+    line-height: 70px;
+    text-align: center;
+    margin-left: 10px;
+    font-weight: 100;
+    }
+    .acfooter {
+        position: relative;
+        width: 400px;
+        height: 50px;
+        right: 100px;
+        margin-top: -20px;
+        border: 1px solid lightgray;
+        text-align: center;
+        padding-top: px;
+    }
+    span {
+        color: #4CB5F9;
+        font-weight: 500;
+    }
+    .acfoot2 {
+        margin-top: 20px;
+        text-align: center;
+        padding: 3px 1px;
+    }
+    .logoimage {
+        position: relative;
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .logoimg1 {
+        border-radius: 10px;
+    }
+    .ft {
+        width: 900px;
+        height: 50px;
+        margin: 100px 200px;
+    }
+    .ft1 {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 12px;
+        padding-left: 0px;
+        font-size: 12px;
+        font-weight: 200;
+        color: rgb(141, 138, 138);
+    }
+    .foot {
+        text-align: center;
+        color: gray;
+        font-size: 12px;
+        margin-top: 20px;
+    }
+}
+   
+@media screen and (max-width: 799px) {    
+
+.subimg {
+    display: none;
+}
+.mainheader {
+    margin-left: 5px;
+}
+.header {
+    width: 200px;
+    height: 320px;
+    padding: 60px 100px;
+    border: 1px solid lightgray;
+}
+.text {
+    display: flex;
+}
+.headertitle {
+    margin-top: -10px;
+    font-family: "Jacquard 24";
+    font-size: 50px;
+}
+.jacquard-24-regular {
+    font-family: "Jacquard 24", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.text {
+    width: 150%;
+    margin-left: -50px;
+    height: 50px;
+    text-indent: 5px;
+    border: 1px solid rgba(196, 189, 189, 0.322);
+    color: rgba(231, 225, 225, 0.952);
+    font-size: 15px;
+}
+.name {
+    margin-top: 5px;
+}
+.btn {
+    width: 150%;
+    height: 45px;
+    margin-left: -50px;
+    color: white;
+    background-color: #4CB5F9;
+    margin-top: 25px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}
+h4::before,
+h4::after{
+    /*width: 150%;
+    text-align: center;
+    border-bottom: 1px solid black;
+    line-height: 0.1em;
+    margin: 20px 20px;
+    margin-left: -50px;*/
+
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 40%;
+    text-align: center;
+  }
+h4::before {
+    right: 2em;
+  }
+  
+h4::after {
+    left: 2.5em;
+  }
+.logomain {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.fblogo {
+    width: 10%;
+    height: 20px;
+    margin-top: -50px;
+}
+.content {
+    margin-top: 33px;
+    color: blue;
+    font-weight: 500;
+    font-size: 17px;
+}
+.content2 {
+margin-top: -100px;
+line-height: 70px;
+text-align: center;
+margin-left: 10px;
+font-weight: 600;
+}
+.acfooter {
+    position: relative;
+    width: 400px;
+    height: 50px;
+    right: 100px;
+    margin-top: -20px;
+    border: 1px solid lightgray;
+    text-align: center;
+    padding-top: px;
+}
+span {
+    color: #4CB5F9;
+    font-weight: 500;
+}
+.acfoot2 {
+    margin-top: 20px;
+    text-align: center;
+    padding: 3px 1px;
+}
+.logoimage {
+    position: relative;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.logoimg1 {
+    border-radius: 10px;
+}
+.ft {
+    height: 50px;
+    margin: 300px auto;
+    font-size: 20px;
+}
+.ft1 {
+    width: 80%;
+    list-style-type: none;
+    gap: 20px;
+    color: rgb(141, 138, 138);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 50px;
+}
+
+.foot {
+    width: 80%;
+    text-align: center;
+    color: gray;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 54px;
+}
+
+}
